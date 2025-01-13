@@ -108,6 +108,34 @@ a {
   display: flex;
   gap: 20px;
   margin-right: 23px;
+  position: relative;
+}
+.hero .hero-thumb-1 {
+  position: absolute;
+  top: 229px;
+  left: 31px;
+  right: 46px;
+  bottom: 88px;
+}
+.hero .hero-thumb-1-1 {
+  position: absolute;
+  top: -32px;
+  left: -172px;
+  right: 273px;
+  bottom: 213px;
+  rotate: 180deg;
+}
+.hero .hero-thumb-2 {
+  position: absolute;
+  top: 470px;
+  bottom: 36px;
+  left: 564px;
+  right: 9px;
+}
+.hero .hero-thumb-4 {
+  position: absolute;
+  left: -213px;
+  top: -8px;
 }
 
 .hero .hero-body {
@@ -332,12 +360,110 @@ a {
   border-radius: 210px;
   background: url(<path-to-image>) lightgray 50% / cover no-repeat;
   box-shadow: 0px 4px 234px 11px rgba(59, 137, 71, 0.25);
+  position: relative;
 }
 .feedback .feedback-body {
   display: flex;
   justify-content: space-between;
   column-gap: 64px;
 }
+/* 
+bij lamf sao day bro ?
+Dạ anh xem cái ảnh em gửi cái đường màu trắng đầu tiên em di chuyển kh đc á anh
+van dc ma bro
+tại em đặt cho cái vecter thứ nhất đó là absolute thì nó kh di được luôn ạ :> kh biết có bị ghi đè cái thứ nhất kh
+tại em đặt cho nó là absolute r á anh
+em dat ten ao that day :))
+1-1 voi 1 :)
+sao ko dat decor-top voi decor-bottom de phan biet :
+Ủa vậy em đặt sai tên hả a =))
+chu con gi a di lam chu thay ai dat ten nghiep du vay =)))
+thoi sua lai di cho do nham nhe bro 
+à vậy để em sửa lại thử còn cái dưới này mình đặt cái img trong cái thẻ chứa hai ảnh này luôn hay sao ạ
+cái thẻ cha chứa hai cái ảnh đó luôn pk ạ
+dung roi nos o 2 anh em dat relative cho cha no feedback-image nay nhe bro'
+là h cho một cái thẻ img vào đây luôn pk a 
+dung roi do 
+dạ vậy để em thử ạ cái ảnh bông hoa màu xanh cũng cho vô dưới cái đường trắng luôn pk a
+nay khoan em xuat car cum chu 
+em xuất hết ko vậy 
+thôi đúng rồi phải xuất ringe từng cái ra rồi 
+vậy cái bông hoa đó đặt img sau cho cái ảnh đường trắng đó pk a rồi absolute bth phải kh ạ 
+đúng ròi nhé 
+mà thoi mấy cái ảnh này sau đi làm xuất hết img thôi 
+ko ai làm này cả =)))
+Dạ tại em tập làm cho quen á mà =)))
+ừ làm đi nhé sau png hết =)))
+dạ vâng đại ca =))))
+sau tạo câu hỏi mới đi nha dài quá nó lag luôn phần cuộn xuống xem =)))
+dạ để có gì lát em có hỏi nữa em tạo cái mới ạ =)) 
+tại sợ anh kh thấy câu hỏi của em th =))
+chú yên tâm anh check đc mà ko phải lo đâu cứ yên tâm hhojc có anh hướng dẫn cơ mà ko lo đâu bro nhé 
+dạ vâng đại ca =)))
+dây bật bí cho nó kênhh chat tổng 
+ên tất cả anh chị làm ở F8 sẽ nhìn đc hết câu hỏi lân câu trả lời của em 
+ên là em ko phải lo là bị miss dâu nha 
+Kh ý là ví dụ sợ ng khác trl á anh sợ là vậy =)))
+ko có ai đâu ngoài anh ra =))
+mấy bạn kia bận học offline rồi nên ko có thgian hỗ trợ đâu mà em toàn hỏi giờ ngta đi ngủ rồi =)))
+dạ em hiểu rồi ạ =)))
+thôi làm tiếp đi có gì nhắn dấy  vô xem cho nha , dự bao  xong đấy 
+bro
+chắc trong nay xong luôn cái này ạ có gì nhờ anh check giúp luôn =))
+thế mai nghé màsao  em ccos 12h :))
+em ở đâu thé 
+em h đang ở sài gòn ạ =))em lừa  nh à =))
+sao đồng hồ 12h kia À nó đang bị lỗi á anh =))) em chưa chỉnh lại ạ
+em điêu lắm -.- 
+kkkkk vậy em làm tiếp nha đại ca
+ảo lắm cơ   anh xem em ở đâu mới đc chênh 12 giờ lận ơ hcm mà =))
+chắcsai giờ 
+thì emoi1 là nó đang bị lỗi mà kkk 
+hài quá thôi làm đi bao gio ra truong ?
+chắc 1 năm nữa á anh mà h em đang tập trung cày gấp rút luôn để lấy kinh nghiệm
+theo fe à 
+em tinh2t heo fullstack luôn tại h theo mỗi fe thì khó sống 
+ờ đúng anh còn chết dở đây =))
+mà thiên về gì 
+em thì dạng không muốn kiểu bị gò bó vô bt mỗi 1 cái th á nên e quyết định học fullstack luôn cho đa dạng 
+nếu mà thiên em sẽ thiên về web hơn tại này em đầu tư nhiều hơn ạ =))
+Fe hay BEông tươngs 
+dạ chắc fe ạ 
+thôi  năm nữa a nghĩ vứa đà của em đc 2/3 fe thôi á đẻ đi làm nhé 
+là sao a em chưa hiểu lắm ạ =))
+với năm nữa m tự học ngày bao tiếng 
+em tính cày xong này chuyển qua javascrip học luôn á anh kiểu trong năm nay chắc em có thể xong ht 3 cái luôn ạ
+em con đi học nữa mà anhh nghĩ từ giờ đến lúc em xin thưc taapj ấy cố học đc thg reactjs là ổn còn trưởng hhowpj mà ko có kịp í
+em phải code thuần html css js vững  vô rồi đi thực tập học reactjs cx đc 
+reacjs bên f8 mình có dạy kh ạ
+nó cũ rồi giờ họ đẩy sang nextjs hết rồi á ên dcx khó đấy 
+vậy h là em nê học tiếp tục cái này vs jvscrip cho xong hay là sao ạ 
+bắt buộc phỉa thông thọa js nhé để còn học tiếp BE nhé 
+tại bây giờ em cũng đang mông lung kh bt học xong cai1html css này vs jvscrip thì kh bt lm gì tiếp theo
+anh tháy web nó còn đỡ ấy em làm mobile cx khó lắm mấy nữa em học sẽ biết ko dễ ưn đâu 
+vậy h theo a nên làm sao a 
+theoa anh em học HTML/css -> JS -> Reactjs -> NExtjs (FE) 
+BE học thêm Nodejs (monogoDB -> NEstjs là ăn chắc luôn 
+vậy kh biết có thật sự kịp kh nữa tại cái fe em còn ch học cái js vs còn reactjs bây giờ kh bt f8 có dạy kh ch kể là nextjs nữa 
+em mua js chưa 
+dạ em cb mua ạ tai5 em đang tính học song song luônvãi
+vãi ra riêng quay xong rồi đấy AnhSƠn  nhắn a thé 
+dạ em tính là bây giờ cái này em đang làm dự án r thì bh em mua học song song luôn gáng trong 3 tháng gì đó hơn xíu để học cho xong cái js luôn
+năm tới  anh ko chắc anh sơn quay reacths đau nha này phải hỏi sếp anh lịa nữa vì thoe kế hoạc anh í dạy zoom 
+đống link rồi đủ quân số ra riêng học rồi á 
+Em nghĩ là a nên thử hỏi a sơn xem có gì dạy reacjs cho nhừng thằng như em học nữa ạ =))) kh thì nếu có học onl thì em đki cũng đc
+đăt ấy em dư tài chính à =))
+reactjs học mỗi đó mắc lắm hả a =))
+ko ai dạy nửa đấy đâu em ơi =)))
+tại bh em mà đkinữa thì phải học lại từ đầu nữa =)) 
+thoi học đi rồi tính chưa phỉa tính xa em cứ làm hắc html css js đi ròi reactjs nó chỉ là công cụ thôi 
+từ anh nếu h f8 kh dạy cái đó vậy h cái đó học ở đâu ok anh hoidanit search youtube 
+căng ta =)))
+thôi học đi cứ từ mà nuốt =))
+ngày học tám  tiếng   một năm dư sức =)))
+em cũng muốn v lắm mà kh có tg nhiều v á anh =))
+thôi làm đi  đi ngủ đây dạ vâng ạ =)))❤️
+*/
 .feedback .feedback-left {
   width: 50%;
 }
@@ -436,6 +562,20 @@ a {
   border-radius: 16px;
   border: 1px solid #fff;
   background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+.feedback-thumb-3 {
+  position: absolute;
+  rotate: 180deg;
+  left: -255px;
+  right: 29px;
+  top: -25px;
+  bottom: 132px;
+}
+.feedback-thumb-4 {
+  position: absolute;
+  right: 469px;
+  left: -293px;
+  top: 4px;
 }
 .title-feedback-3 {
   display: flex;
